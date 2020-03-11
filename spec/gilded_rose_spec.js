@@ -120,7 +120,7 @@ describe("GildedRose shop manager", function () {
     expect(items[0].sellIn).toBe(0);
   });
 
-  it("Ne pas augementer la qualité au delà de 50", function () {
+  it("Ne pas augmenter la qualité au delà de 50", function () {
     listItems.push(new Item("Aged Brie", 4, 49));
 
     const gildedRose = new Shop(listItems);
